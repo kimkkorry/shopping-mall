@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미디어 쿼리 예제</title>
+    <style>
+        @media screen and (max-width: 767px) {
+            /* 화면 너비가 767px 이하일때 적용 */
+            body{
+                background-color: lightcoral;
+            }
+            /* rem = 기본 크기(16px), 2rem, em = 부모 크기의 상대 크기 2em */
+            h1{font-size: 1.5rem; /* 1.5 x 16=24px */}
+        }
+
+        @media screen and (min-width: 768px){
+            /* 화면 너비가 768px 이상일 때 적용 */
+            body{
+                background-color: lightblue;
+            }
+            h1{font-size: 2rem; /* 2 x 16=32px */}
+        }
+
+        @media screen and (min-width: 1100px){
+            /* 화면 너비가 1100px 이상일 때 적용 */
+            body{
+                background-color: lightgreen;
+            }
+            h1{font-size: 2.5rem; /* 2.5 x 16= 40px*/}
+        }
+    </style>
+</head>
+<body>
+    <h1>미디어 쿼리 사용</h1>
+    <p>화면 크기에 따라 배경색이 바뀝니다.</p>
+</body>
+</html>

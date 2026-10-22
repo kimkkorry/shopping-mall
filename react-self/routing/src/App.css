@@ -1,0 +1,72 @@
+.app{
+    margin-top: 20px;
+}
+/* header 스타일 */
+.header a{
+    margin: 16px;
+}
+.content{
+    margin: 20px;
+}
+
+/* 회원 가입 스타일 */
+.sign-up{
+  width: 500px;
+  margin: 30px auto;
+}
+.sign-up ul{
+  list-style: none;
+  padding-left: 100px;
+}
+.sign-up ul li{
+  margin: 16px;
+  text-align: left;
+}
+.sign-up ul li > label:first-child{
+  /* '>' - 자식 선택자, ' ' - 공백은 후손 자택자 */
+  float: left; /* 라벨을 왼쪽으로 띄움 */
+  width: 80px;
+  margin-right: 10px;
+}
+.sign-up ul li:last-child{ /* 버튼 항목 선택 */
+  text-align: center; 
+}
+.sign-up ul li input[type="text"],
+.sign-up ul li select,
+.sign-up ul li textarea{
+  padding: 5px;
+  width: 200px;
+}
+.sign-up ul li textarea{
+  resize: none; /* 크기 조절 안됨 */
+}
+.sign-up ul li button{
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* 로그인 스타일 */
+.sign-in{
+  width: 500px;
+  margin: 30px auto;
+}
+.sign-in ul{
+  list-style: none;
+}
+.sign-in ul li{
+  margin: 16px;
+}
+.sign-in ul li:last-child{ /* 버튼 항목 선택 */
+  text-align: center; 
+}
+.sign-in ul li input[type="text"],
+.sign-in ul li input[type="password"]{
+  padding: 5px;
+  width: 200px;
+}
+.sign-in ul li button{
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}

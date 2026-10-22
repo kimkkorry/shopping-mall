@@ -1,0 +1,10 @@
+.app{
+  margin-top: 20px;
+}
+.welcome{
+  color: #0000ff;
+}
+.list{
+  list-style: none;
+  padding-left: 0;
+}

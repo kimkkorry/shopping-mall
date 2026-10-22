@@ -1,0 +1,11 @@
+.container{
+    display: flex; /* 방향 - 수평 배치 */
+    flex-direction: row; /* 수평 */
+    flex-direction: column; /* 수직 */
+    gap: 16px;  /* 객체간 간격 */
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}

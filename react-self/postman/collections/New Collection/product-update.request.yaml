@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:8000/api/products/1
+method: PUT
+body:
+  type: json
+  content: "{ \r
+
+    \"productName\": \"블루투스 이어폰\", \r
+
+    \"price\": 50000 }"
+order: 7000

@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:8000/api/products
+method: POST
+body:
+  type: json
+  content: "{ \r
+
+    \"productName\": \"무선키보드\", \r
+
+    \"price\": 40000 }"
+scripts:
+  - type: afterResponse
+    code: ""
+    language: text/javascript
+order: 4000

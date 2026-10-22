@@ -1,0 +1,15 @@
+.container{
+    display: flex; /* 방향 - 수평 배치 */
+    /* 수평인 상태에서 정렬 - 왼쪽, 오른쪽, 가운데, 양쪽 */
+    justify-content: flex-start; 
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around; /* 균등하게 정렬 */
+    justify-content: space-between; /* 양끝을 배치한 후 정렬 */ 
+    gap: 16px;  /* 객체간 간격 */
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+}

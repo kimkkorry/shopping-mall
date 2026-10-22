@@ -1,0 +1,21 @@
+.container{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    display: flex; /* 방향 - 수평 배치 */
+    /* 수직 정렬 */
+    align-items: center;
+    align-items: start;
+    align-items: end;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 16px;  /* 객체간 간격 */
+}
+.box{
+    width: 60px;
+    height: 60px;
+    background-color: lightcoral;
+}
+p{text-align: center;}
